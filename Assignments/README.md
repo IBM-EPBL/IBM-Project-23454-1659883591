@@ -1,5 +1,5 @@
 ## Team ID
->> PNT2022TMID04841
+- PNT2022TMID04841
 ## Team Leader
 - Paulson J 19ITR057
 ## Team Members
