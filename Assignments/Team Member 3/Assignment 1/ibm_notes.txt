@@ -1,0 +1,12 @@
+https://github.com/kshyam/flask-with-sqlite
+
+Assignment 1 :- Develop a
+sample homepage with
+html, css which should
+include banner, image &
+description about ypurself
+and contact form.
+
+ 2:-create
+responsive page for
+mobile as well as desktop.
