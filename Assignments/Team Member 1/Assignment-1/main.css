@@ -1,0 +1,120 @@
+
+.padd-15{
+    padding: 15px;
+}
+.bg-red{
+    background-color: red;
+}
+.timeline {
+    border-left: 2px solid #E6E9ED;
+    padding: 1rem 0; }
+  
+  .timeline-card {
+    position: relative;
+    margin-left: 31px;
+    border-left: 2px solid;
+    margin-bottom: 2rem; }
+  
+  .timeline-card:last-child {
+    margin-bottom: 1rem; }
+  
+  .timeline-card:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 12px;
+    height: 12px;
+    top: 20px;
+    left: -41px;
+    border: 2px solid;
+    z-index: 2; }
+  
+  .timeline-card:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-color: currentColor;
+    width: 29px;
+    height: 2px;
+    top: 25px;
+    left: -29px;
+    z-index: 1; }
+  html {
+    scroll-behavior: smooth; }
+  
+  .site-title {
+    font-size: 1.25rem;
+    line-height: 2.5rem; }
+  
+  .nav-link {
+    padding: 0;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    color: rgba(0, 0, 0, 0.5); }
+  
+  .nav-link:hover,
+  .nav-link:focus,
+  .active .nav-link {
+    color: rgba(0, 0, 0, 0.8); }
+  
+  .nav-item + .nav-item {
+    margin-left: 1rem; }
+  
+  .cover {
+    border-radius: 10px; }
+  
+  .cover-bg {
+    background-color: #ff1a1a;
+   
+    border-radius: 10px 10px 0 0; }
+  
+  .avatar {
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+  
+  .avatar img {
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%); }
+  
+  
+  @media (min-width: 48em) {
+    .site-title {
+      float: left; }
+    .site-nav {
+      float: right; }
+    .avatar {
+      margin-bottom: -80px;
+      margin-left: 0; } }
+  
+  @media print {
+    body {
+      background-color: #fff; }
+    .container {
+      width: auto;
+      max-width: 100%;
+      padding: 0; }
+    .cover, .cover-bg {
+      border-radius: 0; }
+    .cover.shadow-lg {
+      box-shadow: none !important; }
+    .cover-bg {
+      padding: 5rem !important;
+      padding-bottom: 10px !important; }
+    .avatar {
+      margin-top: -10px; }
+    .about-section {
+      padding: 6.5rem 5rem 2rem !important; }
+    .skills-section,
+    .work-experience-section,
+    .education-section,
+    .contant-section {
+      padding: 1.5rem 5rem 2rem !important; }
+    .page-break {
+      padding-top: 5rem;
+      page-break-before: always; } }
